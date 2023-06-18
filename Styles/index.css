@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: auto;
+    font-family: "Exo 2";
+}
+/* Nav  Start*/
+nav{
+    background-color: #01449f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    margin-left: 40px;
+    width: 120px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+}
+#navButtons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+#contact{
+    margin-right: 40px;
+}
+#navButtons>div>a , #contact>a{
+    font-size: 18px;
+    color: aliceblue;
+    text-decoration:none;
+}
+#navButtons>div>a:hover,#contact>a:hover{
+    color: black;
+}
+
+/* Nav  End*/

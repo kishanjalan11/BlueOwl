@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: auto;
+    font-family: "Exo 2";
+}
+#contactUsCard{
+    background-color:aliceblue ;
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    display: flex;
+}
+#contactUsCard>div:nth-child(1){
+    padding: 50px;
+    width: 40%;
+}
+#contactUsCard>div:nth-child(2){
+    padding: 50px;
+    width: 60%;
+}
+
+/* Right Side Start*/
+#formContainer input{
+    background-color: aliceblue;
+    font-family: "Exo 2";
+    padding: 10px;
+    width: 100%;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+#formContainer>div{
+    display: flex;
+    justify-content: center;
+}
+#formContainer textarea{
+    background-color: aliceblue;   
+    font-family: "Exo 2"; 
+    padding: 10px;
+    width: 93%;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid;
+    resize: none;
+}
+#formContainer #submitBTN{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+#formContainer #submitBTN:hover{
+    background-color: #CCE7FF;
+}
+/* Right Side End*/
+
+/* Left Side Start */
+#text-content>h2{
+    margin-bottom: 5px;
+}
+#contact-box{
+    margin-top: 30px;
+}
+.contacts{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.contacts>.contact-img{
+    width: 30px;
+}
+#social-media{
+    margin: auto;
+    margin-top: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+#social-media .fa{
+    font-size: 30px;
+    color: black;
+}
+
+/* Left Side End */
+
+
+/* Medium screens Start*/
+@media all and (min-width: 451px) and (max-width: 750px) {
+    
+  }
+  /* Medium screens Start*/
+  /* Small screens Start*/
+  @media all and (min-width: 100px) and (max-width: 450px) {
+    
+  }
+  /* Small screens End*/
