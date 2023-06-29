@@ -4,39 +4,93 @@
 }
 body{
     margin: auto;
-    font-family: "Exo 2";
+    font-family: "Belanosima";
+    background-color: #1e1e20;
+
 }
+
 /* Nav  Start*/
 nav{
-    background-color: #01449f;
+    width: 90%;
     display: flex;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
+    border-bottom:1px solid #cecece ;
 }
 #logo{
-    margin-left: 40px;
+    margin-top: 5px;
     width: 120px;
 }
 #logo img{
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 #navButtons{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
+    align-items: center;
 }
-
-#contact{
-    margin-right: 40px;
-}
-#navButtons>div>a , #contact>a{
+#navButtons>div>a{
     font-size: 18px;
-    color: aliceblue;
+    /* font-weight: bold; */
+    color: black;
     text-decoration:none;
 }
-#navButtons>div>a:hover,#contact>a:hover{
-    color: black;
+#navButtons>div>a:hover{
+    color: #01449f;
 }
 
 /* Nav  End*/
+
+/* ABOUT US Start*/
+
+#aboutUS{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+#aboutUSLeft{
+    font-size: 120px;
+    font-weight:bold;
+    color: #3b3b3b;
+    width: 65%;
+}
+#aboutUSLeft>#top{
+    display: flex;
+    align-items: center;
+}
+#aboutUSLeft>#top>#imgAb{
+    height: 100px;
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+}
+#aboutUSLeft>#top img{
+    height: 100%;
+}
+#aboutUSRight{
+    width: 35%;
+    margin: auto;
+    font-size: 20px;
+    color: #3b3b3b;
+}
+#hero{
+    height: 600px;
+}
+#hero>img{
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: -80px;
+}
+.grey{
+    background-color: #e5e5e5;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+
