@@ -4,68 +4,75 @@
 }
 body{
     margin: auto;
-    font-family: "Exo 2";
+    font-family: "Belanosima";
 }
 #contactUsCard{
-    background-color:aliceblue ;
-    width: 75%;
+    background-color:#1e1e20;
+    color:#d9d9d9;
+    width: 90%;
     margin: auto;
     margin-top: 50px;
-    border: 2px solid black ;
-    border-radius: 10px;
     display: flex;
 }
 #contactUsCard>div:nth-child(1){
     padding: 50px;
-    width: 40%;
+    width: 50%;
 }
 #contactUsCard>div:nth-child(2){
     padding: 50px;
-    width: 60%;
+    width: 50%;
 }
 
 /* Right Side Start*/
 #formContainer input{
-    background-color: aliceblue;
-    font-family: "Exo 2";
+    background-color: #505052;
+    color: #d9d9d9;
+    font-size: 20px;
+    font-family: "Belanosima";
     padding: 10px;
     width: 100%;
     margin: 5px 10px;
     border-radius: 5px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 #formContainer>div{
     display: flex;
     justify-content: center;
 }
-#formContainer textarea{
-    background-color: aliceblue;   
-    font-family: "Exo 2"; 
+#formContainer textarea{   
+    background-color: #505052;
+    color: #d9d9d9;
+    font-size: 20px;
+    font-family: "Belanosima"; 
     padding: 10px;
     width: 93%;
     margin: 5px 10px;
     border-radius: 5px;
-    border: 1px solid;
+    /* border: 1px solid; */
     resize: none;
 }
 #formContainer #submitBTN{
-    background-color: aliceblue;
+    background-color: #505052;
     cursor: pointer;
 }
 #formContainer #submitBTN:hover{
-    background-color: #CCE7FF;
+    background-color: white;
+    color: #505052;
 }
 /* Right Side End*/
 
 /* Left Side Start */
 #text-content>h2{
     margin-bottom: 5px;
+    font-size: 80px;
+}
+#text-content>p{
+    font-size: 30px;
 }
 #contact-box{
     margin-top: 30px;
 }
 .contacts{
-    /* background-color: aqua; */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -73,7 +80,11 @@ body{
 }
 
 .contacts>.contact-img{
-    width: 30px;
+    width: 40px;
+    color: #d9d9d9;
+}
+.contacts>.contact-text{
+    font-size: 20px;
 }
 #social-media{
     margin: auto;
@@ -83,8 +94,11 @@ body{
     justify-content: space-between;
 }
 #social-media .fa{
-    font-size: 30px;
-    color: black;
+    font-size: 40px;
+    color: #d9d9d9;
+}
+#social-media .fa:hover{
+    color: white;
 }
 
 /* Left Side End */
